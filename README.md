@@ -58,8 +58,11 @@ I hope that this article has assisted you in finding the perfect extension/add-o
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
   <br><a href="https://github.com/yousefebrahimi0/best-seo-extensions-addons/discussions">Ask a Question or Make a recommendation</a>
 
-## License
-See [LICENSE](LICENSE.md)
+## License & Attribution
+Licensed under the [Apache License 2.0](LICENSE).
+
+If you use this project in your work, software, or research, please include the attribution in the [NOTICE](NOTICE) file and credit:
+> Yousef Ebrahimi — https://github.com/[your-username]/[repo-name]
 
 <!--
 Links
