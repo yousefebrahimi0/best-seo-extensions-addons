@@ -6,15 +6,16 @@
 
 A curated directory of browser add-ons for **technical SEO, keyword and SERP research, backlinks, metadata, website technology and local search**. Each link below points to the named browser store listing where one could be located during the **23 November 2026** review. Store availability is **not** proof of good behavior, current functionality, or a security audit.
 
-The directory contains **24 existing tools** after retiring entries whose original Chrome listings no longer resolve. New suggestions are reviewed separately and are **not added without approval**.
+The directory contains **33 tools**: 24 retained from the original audit and **9 additional extensions approved and checked on 23 November 2026**. Three original entries were retired because their store IDs no longer resolved. Inclusion is not a claim of zero risk; review the privacy warnings.
 
 ## Contents
-- [Existing extensions](#existing-extensions)
+- [SEO extensions](#seo-extensions)
+- [New additions: publisher and permission checks](#new-additions-publisher-and-permission-checks)
 - [Verification and privacy notes](#verification-and-privacy-notes)
 - [Contributing](#contributing)
 - [License and attribution](#license-and-attribution)
 
-## Existing extensions
+## SEO extensions
 
 | Extension | What it does | Chrome | Firefox | Notes |
 |:--|:--|:--:|:--:|:--|
@@ -43,7 +44,35 @@ The directory contains **24 existing tools** after retiring entries whose origin
 | BrowserStack | Launch cross-browser/device test sessions; requires a BrowserStack account. | [Chrome](https://chromewebstore.google.com/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb) | — | Firefox listing previously linked was unrelated and is removed. |
 | gs location changer | Adjust Google Search's location setting for local SERP checks. | [Chrome](https://chromewebstore.google.com/detail/gs-location-changer/blpgcfdpnimjdojecbpagkllfnkajglp) | — | Firefox geolocation spoofing is not equivalent to Google Search location. |
 
+| Detailed SEO Extension | Inspect meta tags, robots directives, headings, canonicals, structured data and on-page SEO signals. | [Chrome](https://chromewebstore.google.com/detail/pfjdepjjfjjahkjfpkcgfmfhmnakjfba) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/detailed-seo-extension/) | Publisher: Ahrefs (acquired Detailed in 2025). Firefox: all-site, tabs, navigation permissions; developer states no data collection. |
+| Ahrefs SEO Toolbar | Inspect technical SEO, redirects, links, headers and search results; Ahrefs metrics require subscription. | [Chrome](https://chromewebstore.google.com/detail/hgmoccdbjhknikckedaaebbpdeebhiei) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ahrefs-seo-toolbar/) | Publisher: AHREFS PTE. LTD. Firefox: all-site, tabs and navigation access. Advanced metrics are paid. |
+| META SEO inspector | Inspect and export metadata, headings, canonical tags, social tags and JSON-LD structured data. | [Chrome](https://chromewebstore.google.com/detail/ibkclpciafdglkjkcibmohobjkcfkaef) | — | Publisher: Andrea Doimo (omiod.com). Developer declares no data collection; Chrome permissions not independently audited. |
+| HeadingsMap | Visualize page heading hierarchy and landmark structure, including accessibility-related heading errors. | [Chrome](https://chromewebstore.google.com/detail/flbjommegcjonpdmenkdiocclhjacmbi) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/) | Publisher: Jorge Rumoroso. Firefox: all-site and navigation access; Chrome developer declares no data collection. |
+| Redirect Path | Trace HTTP 301/302 status codes, headers, redirects and HTTP errors. | [Chrome](https://chromewebstore.google.com/detail/aomidfkchockcldhbkggjokdkkebmdll) | — | Publisher: Ayima UK Ltd. Developer declares no data collection; last listed update June 2024. |
+| Link Redirect Trace | Analyze redirect chains, HTTP headers, canonical tags, robots directives and link metrics. | [Chrome](https://chromewebstore.google.com/detail/nnpljppamoaalgkieeciijbcccohlpoh) | — | Publisher: LinkResearchTools GmbH. ⚠️ Official Firefox version omitted: it requests all-site, tabs, navigation AND download-history access; last Chrome update June 2024. |
+| View Rendered Source | Compare raw HTML with the JavaScript-rendered DOM to find technical SEO differences. | [Chrome](https://chromewebstore.google.com/detail/ejgngohbdedoabanmclafpkoogegdpob) | — | Publisher: Peg Leg Ltd. Developer declares no data collection; last listed update June 2023 — verify compatibility. |
+| Keyword Surfer | Show search volumes, CPC, suggestions and keyword collections directly in Google results. | [Chrome](https://chromewebstore.google.com/detail/bafijghppfhdpldihckdcadbcobikaca) | — | Publisher: Surfer SEO. ⚠️ Privacy caution: Chrome disclosure lists location, user activity AND website content; consider limiting site access. |
+| Schema Builder for Structured Data | Create and validate Google-supported JSON-LD markup using a point-and-click interface. | [Chrome](https://chromewebstore.google.com/detail/klohjdodjjeocpbpadmkcndjoadijgjg) | — | Publisher: Actonia Inc. / schema.dev (seoClarity). Developer declares no data collection; last listed update March 2025. |
+
 **—** means that a matching listing has not been verified on that browser (not that every similar-function add-on is unavailable). **⚠️** means an original link still needs a manual browser-store recheck before being recommended.
+
+## New additions: publisher and permission checks
+
+**Reviewed 2026-11-23 (9 new entries).** Publisher identities were checked against the official Chrome Web Store and Firefox Add-ons listings. **Chrome's public listing does not expose a complete permission manifest in this review environment**, so Chrome-level permission grants have **not** been independently verified. Mozilla Add-ons pages do disclose required Firefox permissions. *Publisher-verified* does not mean technically security-audited.
+
+| Extension | Store publisher identity | Privacy and permission findings |
+|:--|:--|:--|
+| Detailed SEO Extension | AHREFS PTE. LTD. (Chrome); Detailed.com (Firefox) | **Verified continuity:** [Detailed announced its Ahrefs acquisition in September 2025](https://detailed.com/detailed-ahrefs/). Firefox requires access to all sites, tabs and navigation; developer declares no data collection. |
+| Ahrefs SEO Toolbar | AHREFS PTE. LTD. (Chrome); Ahrefs (Firefox) | Firefox requests all-site, tabs and navigation access. Chrome listing declares no collection/use of data; advanced metrics need an Ahrefs subscription. |
+| META SEO inspector | Andrea Doimo / omiod.com | Chrome listing declares no collection/use of data. Similar-named Firefox add-ons are not confirmed official; **no Firefox link**. |
+| HeadingsMap | Jorge Rumoroso (Chrome); Rumoroso (Firefox) | Firefox requires all-site and navigation access; Chrome listing declares no collection/use of data. |
+| Redirect Path | Ayima UK Ltd | Chrome listing declares no collection/use of data; no confirmed official Firefox listing. Store shows June 2024 as last update. |
+| Link Redirect Trace | LinkResearchTools GmbH | Chrome listing declares no collection/use of data. An [official Firefox listing](https://addons.mozilla.org/en-US/firefox/addon/link-redirect-trace-addon/) exists but **is intentionally not recommended in the download table**: it requests access to all sites, tabs, navigation, **and download files/history**. These privileges deserve closer assessment; they do **not** establish malicious behavior. |
+| View Rendered Source | Peg Leg Ltd | Chrome listing declares no collection/use of data; no verified official Firefox version. The previously indexed last update is June 2023; check compatibility before installing. |
+| Keyword Surfer | Surfer SEO / surferseo.com | **Higher privacy exposure:** Chrome explicitly discloses handling **location, user activity and website content**. These are declared data categories, not evidence of misuse. Use only if comfortable with its data policy and site access. |
+| Schema Builder for Structured Data | Actonia Inc. / schema.dev (seoClarity email) | Chrome listing declares no collection/use of data. Last listed update March 2025; no verified official Firefox version. |
+
+**Permissions policy:** No links to unverified Firefox lookalikes. Browser-wide permissions can be necessary for technical SEO, but should not be treated as automatically safe. The Firefox *Link Redirect Trace* listing is a **conservative omission**, not a verdict that its code is malicious. On Chrome, always inspect the **exact permission prompt** and current privacy policy at installation time; store badges and publisher declarations are not security proofs.
 
 ## Verification and privacy notes
 
