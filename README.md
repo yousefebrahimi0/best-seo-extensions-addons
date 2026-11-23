@@ -10,7 +10,6 @@ The directory contains **31 tools**: 22 retained from the original audit and **9
 
 ## Contents
 - [SEO extensions](#seo-extensions)
-- [New additions: publisher and permission checks](#new-additions-publisher-and-permission-checks)
 - [Verification and privacy notes](#verification-and-privacy-notes)
 - [Contributing](#contributing)
 - [License and attribution](#license-and-attribution)
@@ -53,25 +52,9 @@ The directory contains **31 tools**: 22 retained from the original audit and **9
 
 **—** means that a matching listing has not been verified on that browser (not that every similar-function add-on is unavailable). Entries with unresolved original browser-store status have been removed rather than recommended.
 
-## New additions: publisher and permission checks
-
-**Reviewed 2026-11-23 (9 new entries).** Publisher identities were checked against the official Chrome Web Store and Firefox Add-ons listings. **Chrome's public listing does not expose a complete permission manifest in this review environment**, so Chrome-level permission grants have **not** been independently verified. Mozilla Add-ons pages do disclose required Firefox permissions. *Publisher-verified* does not mean technically security-audited.
-
-| Extension | Store publisher identity | Privacy and permission findings |
-|:--|:--|:--|
-| Detailed SEO Extension | AHREFS PTE. LTD. (Chrome); Detailed.com (Firefox) | **Verified continuity:** [Detailed announced its Ahrefs acquisition in September 2025](https://detailed.com/detailed-ahrefs/). Firefox requires access to all sites, tabs and navigation; developer declares no data collection. |
-| Ahrefs SEO Toolbar | AHREFS PTE. LTD. (Chrome); Ahrefs (Firefox) | Firefox requests all-site, tabs and navigation access. Chrome listing declares no collection/use of data; advanced metrics need an Ahrefs subscription. |
-| META SEO inspector | Andrea Doimo / omiod.com | Chrome listing declares no collection/use of data. Similar-named Firefox add-ons are not confirmed official; **no Firefox link**. |
-| HeadingsMap | Jorge Rumoroso (Chrome); Rumoroso (Firefox) | Firefox requires all-site and navigation access; Chrome listing declares no collection/use of data. |
-| Redirect Path | Ayima UK Ltd | Chrome listing declares no collection/use of data; no confirmed official Firefox listing. Store shows June 2024 as last update. |
-| Link Redirect Trace | LinkResearchTools GmbH | Chrome listing declares no collection/use of data. An [official Firefox listing](https://addons.mozilla.org/en-US/firefox/addon/link-redirect-trace-addon/) exists but **is intentionally not recommended in the download table**: it requests access to all sites, tabs, navigation, **and download files/history**. These privileges deserve closer assessment; they do **not** establish malicious behavior. |
-| View Rendered Source | Peg Leg Ltd | Chrome listing declares no collection/use of data; no verified official Firefox version. The previously indexed last update is June 2023; check compatibility before installing. |
-| Keyword Surfer | Surfer SEO / surferseo.com | **Higher privacy exposure:** Chrome explicitly discloses handling **location, user activity and website content**. These are declared data categories, not evidence of misuse. Use only if comfortable with its data policy and site access. |
-| Schema Builder for Structured Data | Actonia Inc. / schema.dev (seoClarity email) | Chrome listing declares no collection/use of data. Last listed update March 2025; no verified official Firefox version. |
-
-**Permissions policy:** No links to unverified Firefox lookalikes. Browser-wide permissions can be necessary for technical SEO, but should not be treated as automatically safe. The Firefox *Link Redirect Trace* listing is a **conservative omission**, not a verdict that its code is malicious. On Chrome, always inspect the **exact permission prompt** and current privacy policy at installation time; store badges and publisher declarations are not security proofs.
-
 ## Verification and privacy notes
+
+**Publisher and permission information for the nine newly added extensions is included directly in the Notes column of the main table.** Chrome's publicly surfaced store information did not provide a complete permission manifest for independent review; Firefox permissions were reviewed where available. Store privacy declarations are not independent security audits. Firefox *Link Redirect Trace* was intentionally omitted from the download column because of its broad permissions, including download history. Keyword Surfer is flagged for disclosed data handling. See the individual rows for details.
 
 **Review date:** 2026-11-23. Checked the original store IDs and compared tool names/developers where available. This is a **listing-level review**, not a hands-on test of every feature and not a static source-code/security audit. Extensions can be listed yet broken on newer search-results pages.
 
